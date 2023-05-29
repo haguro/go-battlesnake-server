@@ -25,11 +25,11 @@ import (
 )
 
 const (
-    version   = "0.1"
-    author = "you"
-    color = "#33ccff"
-    head = "default"
-    tail = "default"
+    version = "0.1"
+    author  = "you"
+    color   = "#33ccff"
+    head    = "default"
+    tail    = "default"
 )
 
 func main() {
@@ -56,15 +56,21 @@ func main() {
     )
 }
 
-func moveSnake(state *server.GameState,l *Logger) server.MoveResponse {
+func moveSnake(state *server.GameState, l *server.Logger) server.MoveResponse {
     l.Info("Hello from %s", state.You.Name)
     //TODO your snake AI here
     return server.MoveResponse{
-        Move:"left",
-        Shout:""
+        Move:  "left",
+        Shout: "",
     }
-
 }
+
+```
+
+Run with `DEBUG` environment variable set to `"TRUE"` to write raw `GameState` json to the log file:
+
+```bash
+DEBUG="TRUE" go run main.go
 ```
 
 Check out the [Battlesnake documentation](https://docs.battlesnake.com) for more information on implementing your Battlesnake AI.
