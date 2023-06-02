@@ -1,5 +1,8 @@
 # go-battlesnake-server
 
+![Go version](https://img.shields.io/badge/go-1.18-blue)
+![License](https://img.shields.io/github/license/haguro/go-battlesnake-server)
+
 `go-battlesnake-server` is a [Battlesnake](https://play.battlesnake.com) HTTP server written in Go. It builds upon the official [Go Starter Snake](https://github.com/BattlesnakeOfficial/starter-snake-go), with a couple of logging improvements and little simpler setup, so you can quickly dive into creating your Battlesnake AI.
 
 ## Installation
@@ -67,7 +70,7 @@ func moveSnake(state *server.GameState, l *server.Logger) server.MoveResponse {
 
 ```
 
-Run with `DEBUG` environment variable set to `"TRUE"` to write raw `GameState` json to the log file:
+Run with `DEBUG` environment variable set to `"TRUE"` to allow debug logging and write raw `GameState` json to the log file:
 
 ```bash
 DEBUG="TRUE" go run main.go

@@ -1,0 +1,274 @@
+{
+    "game": {
+        "id": "1b3474bb-08a2-41d6-b932-ce956f87758e",
+        "ruleset": {
+            "name": "standard",
+            "version": "cli",
+            "settings": {
+                "foodSpawnChance": 15,
+                "minimumFood": 1,
+                "hazardDamagePerTurn": 14,
+                "hazardMap": "",
+                "hazardMapAuthor": "",
+                "royale": {
+                    "shrinkEveryNTurns": 25
+                },
+                "squad": {
+                    "allowBodyCollisions": false,
+                    "sharedElimination": false,
+                    "sharedHealth": false,
+                    "sharedLength": false
+                }
+            }
+        },
+        "map": "standard",
+        "timeout": 500,
+        "source": ""
+    },
+    "turn": 149,
+    "board": {
+        "height": 11,
+        "width": 11,
+        "snakes": [
+            {
+                "id": "e6d7e5c7-0a03-4a93-876d-31b03f130ec1",
+                "name": "S1",
+                "latency": "1",
+                "health": 98,
+                "body": [
+                    {
+                        "x": 7,
+                        "y": 10
+                    },
+                    {
+                        "x": 7,
+                        "y": 9
+                    },
+                    {
+                        "x": 6,
+                        "y": 9
+                    },
+                    {
+                        "x": 6,
+                        "y": 8
+                    },
+                    {
+                        "x": 7,
+                        "y": 8
+                    },
+                    {
+                        "x": 7,
+                        "y": 7
+                    },
+                    {
+                        "x": 8,
+                        "y": 7
+                    },
+                    {
+                        "x": 9,
+                        "y": 7
+                    },
+                    {
+                        "x": 9,
+                        "y": 6
+                    },
+                    {
+                        "x": 10,
+                        "y": 6
+                    }
+                ],
+                "head": {
+                    "x": 7,
+                    "y": 10
+                },
+                "length": 10,
+                "shout": "",
+                "squad": "",
+                "customizations": {
+                    "color": "#ff0000",
+                    "head": "",
+                    "tail": ""
+                }
+            },
+            {
+                "id": "489562ce-9cdf-4a7e-b3fd-1f8c46801e80",
+                "name": "S2",
+                "latency": "0",
+                "health": 93,
+                "body": [
+                    {
+                        "x": 5,
+                        "y": 4
+                    },
+                    {
+                        "x": 6,
+                        "y": 4
+                    },
+                    {
+                        "x": 6,
+                        "y": 5
+                    },
+                    {
+                        "x": 5,
+                        "y": 5
+                    },
+                    {
+                        "x": 5,
+                        "y": 6
+                    },
+                    {
+                        "x": 4,
+                        "y": 6
+                    },
+                    {
+                        "x": 3,
+                        "y": 6
+                    },
+                    {
+                        "x": 3,
+                        "y": 7
+                    },
+                    {
+                        "x": 3,
+                        "y": 8
+                    },
+                    {
+                        "x": 3,
+                        "y": 9
+                    }
+                ],
+                "head": {
+                    "x": 5,
+                    "y": 4
+                },
+                "length": 10,
+                "shout": "",
+                "squad": "",
+                "customizations": {
+                    "color": "#ff0000",
+                    "head": "",
+                    "tail": ""
+                }
+            }
+        ],
+        "food": [
+            {
+                "x": 5,
+                "y": 1
+            },
+            {
+                "x": 2,
+                "y": 3
+            },
+            {
+                "x": 3,
+                "y": 2
+            },
+            {
+                "x": 4,
+                "y": 3
+            },
+            {
+                "x": 10,
+                "y": 2
+            },
+            {
+                "x": 6,
+                "y": 3
+            },
+            {
+                "x": 3,
+                "y": 3
+            },
+            {
+                "x": 2,
+                "y": 1
+            },
+            {
+                "x": 1,
+                "y": 1
+            },
+            {
+                "x": 9,
+                "y": 2
+            },
+            {
+                "x": 4,
+                "y": 0
+            },
+            {
+                "x": 5,
+                "y": 3
+            },
+            {
+                "x": 1,
+                "y": 4
+            },
+            {
+                "x": 7,
+                "y": 1
+            }
+        ],
+        "hazards": []
+    },
+    "you": {
+        "id": "e6d7e5c7-0a03-4a93-876d-31b03f130ec1",
+        "name": "S1",
+        "latency": "0",
+        "health": 98,
+        "body": [
+            {
+                "x": 7,
+                "y": 10
+            },
+            {
+                "x": 7,
+                "y": 9
+            },
+            {
+                "x": 6,
+                "y": 9
+            },
+            {
+                "x": 6,
+                "y": 8
+            },
+            {
+                "x": 7,
+                "y": 8
+            },
+            {
+                "x": 7,
+                "y": 7
+            },
+            {
+                "x": 8,
+                "y": 7
+            },
+            {
+                "x": 9,
+                "y": 7
+            },
+            {
+                "x": 9,
+                "y": 6
+            },
+            {
+                "x": 10,
+                "y": 6
+            }
+        ],
+        "head": {
+            "x": 7,
+            "y": 10
+        },
+        "length": 10,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+            "color": "#ff0000",
+            "head": "",
+            "tail": ""
+        }
+    }
+}
