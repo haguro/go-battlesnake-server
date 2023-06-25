@@ -3,7 +3,7 @@
 ![Go version](https://img.shields.io/badge/go-1.18-blue)
 ![License](https://img.shields.io/github/license/haguro/go-battlesnake-server)
 
-`go-battlesnake-server` is a [Battlesnake](https://play.battlesnake.com) HTTP server written in Go. It builds upon the official [Go Starter Snake](https://github.com/BattlesnakeOfficial/starter-snake-go), with a couple of logging improvements and little simpler setup, so you can quickly dive into creating your Battlesnake AI.
+`go-battlesnake-server` is a [Battlesnake](https://play.battlesnake.com) HTTP server written in Go. It builds upon the official [Go Starter Snake](https://github.com/BattlesnakeOfficial/starter-snake-go), with a couple of logging improvements and a slightly simpler setup, so you can quickly dive into creating your Battlesnake AI.
 
 ## Installation
 
